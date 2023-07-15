@@ -478,7 +478,7 @@
   },
   {
     "id": "apple-macbook-air-m2-256gb-starlight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 Starlight",
     "capacityAvailable": [
       "256GB",
@@ -530,7 +530,7 @@
   },
   {
     "id": "apple-macbook-air-m2-256gb-midnight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 Midnight",
     "capacityAvailable": [
       "256GB",
@@ -582,7 +582,7 @@
   },
   {
     "id": "apple-macbook-air-m2-256gb-silver",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 Silver",
     "capacityAvailable": [
       "256GB",
@@ -634,7 +634,7 @@
   },
   {
     "id": "apple-macbook-air-m2-512gb-starlight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 512GB Starlight",
     "capacityAvailable": [
       "256GB",
@@ -686,7 +686,7 @@
   },
   {
     "id": "apple-macbook-air-m2-512gb-midnight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 512GB Midnight",
     "capacityAvailable": [
       "256GB",
@@ -738,7 +738,7 @@
   },
   {
     "id": "apple-macbook-air-m2-512gb-silver",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 512GB Silver",
     "capacityAvailable": [
       "256GB",
@@ -790,7 +790,7 @@
   },
   {
     "id": "apple-macbook-air-m2-1tb-starlight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 1TB Starlight",
     "capacityAvailable": [
       "256GB",
@@ -842,7 +842,7 @@
   },
   {
     "id": "apple-macbook-air-m2-1tb-midnight",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 1TB Midnight",
     "capacityAvailable": [
       "256GB",
@@ -894,7 +894,7 @@
   },
   {
     "id": "apple-macbook-air-m2-1tb-silver",
-    "namespaceId": "apple-macbook-air",
+    "namespaceId": "apple-macbook-air-m2",
     "name": "Apple MacBook Air M2 1TB Silver",
     "capacityAvailable": [
       "256GB",
