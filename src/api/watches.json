@@ -10,11 +10,11 @@
     "capacity": "38mm",
     "priceRegular": 199,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-series-3/spacegray/00.webp",
       "img/watches/apple-watch-series-3/spacegray/01.webp",
@@ -61,11 +61,11 @@
     "capacity": "42mm",
     "priceRegular": 250,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-series-3/spacegray/00.webp",
       "img/watches/apple-watch-series-3/spacegray/01.webp",
@@ -112,7 +112,7 @@
     "capacity": "38mm",
     "priceRegular": 199,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -163,7 +163,7 @@
     "capacity": "42mm",
     "priceRegular": 250,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -214,7 +214,7 @@
     "capacity": "38mm",
     "priceRegular": 199,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -265,7 +265,7 @@
     "capacity": "42mm",
     "priceRegular": 250,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -316,13 +316,13 @@
     "capacity": "40mm",
     "priceRegular": 399,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
       "red"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-series-6/spacegray/00.webp",
       "img/watches/apple-watch-series-6/spacegray/01.webp",
@@ -369,13 +369,13 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
       "red"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-series-6/spacegray/00.webp",
       "img/watches/apple-watch-series-6/spacegray/01.webp",
@@ -422,7 +422,7 @@
     "capacity": "40mm",
     "priceRegular": 399,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -475,7 +475,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -528,7 +528,7 @@
     "capacity": "40mm",
     "priceRegular": 399,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -581,7 +581,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -634,7 +634,7 @@
     "capacity": "40mm",
     "priceRegular": 399,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -687,7 +687,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -740,7 +740,7 @@
     "capacity": "40mm",
     "priceRegular": 399,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -793,7 +793,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold",
       "blue",
@@ -848,7 +848,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "silver",
     "images": [
@@ -897,7 +897,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -950,7 +950,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "gold",
     "images": [
@@ -999,7 +999,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -1052,7 +1052,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "spacegray",
     "images": [
@@ -1101,7 +1101,7 @@
     "capacity": "44mm",
     "priceRegular": 429,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -1154,7 +1154,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "silver",
     "images": [
@@ -1205,7 +1205,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "silver",
     "images": [
@@ -1256,7 +1256,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "gold",
     "images": [
@@ -1307,7 +1307,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "gold",
     "images": [
@@ -1358,7 +1358,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "spacegray",
     "images": [
@@ -1409,7 +1409,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "spacegray",
     "images": [
@@ -1460,7 +1460,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "silver",
     "images": [
@@ -1511,7 +1511,7 @@
     "colorsAvailable": [
       "silver",
       "gold",
-      "space gray"
+      "spacegray"
     ],
     "color": "silver",
     "images": [
@@ -1561,7 +1561,7 @@
     "priceRegular": 279,
     "colorsAvailable": [
       "silver",
-      "space gray",
+      "spacegray",
       "gold"
     ],
     "color": "gold",
@@ -1611,7 +1611,7 @@
     "capacity": "44mm",
     "priceRegular": 309,
     "colorsAvailable": [
-      "space gray",
+      "spacegray",
       "silver",
       "gold"
     ],
@@ -1663,10 +1663,10 @@
     "priceRegular": 279,
     "colorsAvailable": [
       "silver",
-      "space gray",
+      "spacegray",
       "gold"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-se/spacegray/00.webp",
       "img/watches/apple-watch-se/spacegray/01.webp",
@@ -1714,10 +1714,10 @@
     "priceRegular": 309,
     "colorsAvailable": [
       "silver",
-      "space gray",
+      "spacegray",
       "gold"
     ],
-    "color": "space gray",
+    "color": "spacegray",
     "images": [
       "img/watches/apple-watch-se/spacegray/00.webp",
       "img/watches/apple-watch-se/spacegray/01.webp",
