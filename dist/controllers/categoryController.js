@@ -122,50 +122,111 @@ var __generator = this && this.__generator || function(thisArg, body) {
         };
     }
 };
-import mongoose from "mongoose";
-var dbURI = "mongodb+srv://andriizaitsevwork:FxU9T8g2orSpkRdk@cluster0.pje3b.mongodb.net/apple_store?retryWrites=true&w=majoritynpm";
-var connectDB = function() {
-    var _ref = _asyncToGenerator(function() {
-        var error;
+import { getModelByCategory } from "../service/categoryService.js";
+export var getAllGoods = function() {
+    var _ref = _asyncToGenerator(function(req, res) {
+        var category, Model, goods, error;
         return __generator(this, function(_state) {
             switch(_state.label){
                 case 0:
+                    category = req.params.category;
+                    _state.label = 1;
+                case 1:
                     _state.trys.push([
-                        0,
-                        2,
+                        1,
+                        3,
                         ,
-                        3
+                        4
                     ]);
+                    Model = getModelByCategory(category);
                     return [
                         4,
-                        mongoose.connect(dbURI, {
-                            autoIndex: true
-                        })
-                    ];
-                case 1:
-                    _state.sent();
-                    console.log("MongoDB connected successfully");
-                    return [
-                        3,
-                        3
+                        Model.find()
                     ];
                 case 2:
-                    error = _state.sent();
-                    console.error("MongoDB connection error:", error);
-                    process.exit(1);
+                    goods = _state.sent();
+                    res.json(goods);
                     return [
                         3,
-                        3
+                        4
                     ];
                 case 3:
+                    error = _state.sent();
+                    console.error("Ошибка при получении товаров: ".concat(error.message));
+                    res.status(500).json({
+                        message: error.message
+                    });
+                    return [
+                        3,
+                        4
+                    ];
+                case 4:
                     return [
                         2
                     ];
             }
         });
     });
-    return function connectDB() {
+    return function getAllGoods(req, res) {
         return _ref.apply(this, arguments);
     };
 }();
-export default connectDB;
+export var getOneGood = function() {
+    var _ref = _asyncToGenerator(function(req, res) {
+        var _req_params, category, productId, Model, foundProduct, error;
+        return __generator(this, function(_state) {
+            switch(_state.label){
+                case 0:
+                    _req_params = req.params, category = _req_params.category, productId = _req_params.productId;
+                    _state.label = 1;
+                case 1:
+                    _state.trys.push([
+                        1,
+                        3,
+                        ,
+                        4
+                    ]);
+                    Model = getModelByCategory(category);
+                    return [
+                        4,
+                        Model.findOne({
+                            id: productId
+                        })
+                    ];
+                case 2:
+                    foundProduct = _state.sent();
+                    if (!foundProduct) {
+                        res.status(404).json({
+                            message: "Product not found"
+                        });
+                        return [
+                            2
+                        ];
+                    }
+                    console.log("Найден товар: ".concat(JSON.stringify(foundProduct)));
+                    res.json(foundProduct);
+                    return [
+                        3,
+                        4
+                    ];
+                case 3:
+                    error = _state.sent();
+                    console.error("Ошибка при получении товара: ".concat(error.message));
+                    res.status(500).json({
+                        message: error.message
+                    });
+                    return [
+                        3,
+                        4
+                    ];
+                case 4:
+                    return [
+                        2
+                    ];
+            }
+        });
+    });
+    return function getOneGood(req, res) {
+        return _ref.apply(this, arguments);
+    };
+}();
