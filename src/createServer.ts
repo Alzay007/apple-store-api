@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 
-import { router as goodsRouter } from './router/goods.js';
-import { router as categoryRouter } from './router/category.js';
+import { router as categoryRouter } from './router/categoryRoutes.js'
+import { router as productsRouter } from './router/productRoutes.js';
 
 export function createServer() {
   const app = express();
@@ -10,8 +10,8 @@ export function createServer() {
   app.use(express.static('./src'));
 
   app.use(cors());
-  app.use('/', categoryRouter);
-  app.use('/goods', goodsRouter);
+  app.use('/products', productsRouter);
+  app.use('/categories', categoryRouter);
 
   app.get('/', (req, res) => {
     res.send('Hi');
