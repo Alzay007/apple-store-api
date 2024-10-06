@@ -1,6 +1,9 @@
+import dotenv from 'dotenv';
 import mongoose, { ConnectOptions } from 'mongoose';
 
-const dbURI = 'mongodb+srv://andriizaitsevwork:FxU9T8g2orSpkRdk@cluster0.pje3b.mongodb.net/apple_store?retryWrites=true&w=majoritynpm';
+dotenv.config();
+
+const dbURI = process.env.MONGO_URI as string;
 
 const connectDB = async (): Promise<void> => {
   try {

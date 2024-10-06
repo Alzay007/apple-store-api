@@ -122,8 +122,10 @@ var __generator = this && this.__generator || function(thisArg, body) {
         };
     }
 };
+import dotenv from "dotenv";
 import mongoose from "mongoose";
-var dbURI = "mongodb+srv://andriizaitsevwork:FxU9T8g2orSpkRdk@cluster0.pje3b.mongodb.net/apple_store?retryWrites=true&w=majoritynpm";
+dotenv.config();
+var dbURI = process.env.MONGO_URI;
 var connectDB = function() {
     var _ref = _asyncToGenerator(function() {
         var error;
