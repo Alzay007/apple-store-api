@@ -27,7 +27,6 @@ export const getOneGood = async (req: Request, res: Response): Promise<void> => 
       return;
     }
 
-    console.log(`Найден товар: ${JSON.stringify(foundProduct)}`);
     res.json(foundProduct);
   } catch (error: unknown) {
     console.error(`Ошибка при получении товара: ${(error as Error).message}`);

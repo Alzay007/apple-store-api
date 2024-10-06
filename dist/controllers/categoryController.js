@@ -203,7 +203,6 @@ export var getOneGood = function() {
                             2
                         ];
                     }
-                    console.log("Найден товар: ".concat(JSON.stringify(foundProduct)));
                     res.json(foundProduct);
                     return [
                         3,

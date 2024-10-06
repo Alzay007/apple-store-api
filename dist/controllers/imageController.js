@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+var getCurrentDir = function() {
+    return path.dirname(fileURLToPath(import.meta.url));
+};
 export var getBannerImages = function(req, res) {
-    var bannersDir = path.join(__dirname, "../uploads/banners");
+    var bannersDir = path.join(getCurrentDir(), "../uploads/banners");
     fs.readdir(bannersDir, function(err, files) {
         if (err) {
             return res.status(500).json({
